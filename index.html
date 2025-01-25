@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html class="fontawesome-i2svg-active fontawesome-i2svg-complete"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style></style>
+  
+  <meta name="description" content="Are Your Multimodal Large Language Models Smart Enough? ">
+  <meta name="keywords" content="MMIQ, AVR, intelligence">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> MMIQ: Are Your Multimodal Large Language Models Smart Enough?  </title>
+
+
+  <style type="text/css">svg:not(:root).svg-inline--fa{overflow:visible}.svg-inline--fa{display:inline-block;font-size:inherit;height:1em;overflow:visible;vertical-align:-.125em}.svg-inline--fa.fa-lg{vertical-align:-.225em}.svg-inline--fa.fa-w-1{width:.0625em}.svg-inline--fa.fa-w-2{width:.125em}.svg-inline--fa.fa-w-3{width:.1875em}.svg-inline--fa.fa-w-4{width:.25em}.svg-inline--fa.fa-w-5{width:.3125em}.svg-inline--fa.fa-w-6{width:.375em}.svg-inline--fa.fa-w-7{width:.4375em}.svg-inline--fa.fa-w-8{width:.5em}.svg-inline--fa.fa-w-9{width:.5625em}.svg-inline--fa.fa-w-10{width:.625em}.svg-inline--fa.fa-w-11{width:.6875em}.svg-inline--fa.fa-w-12{width:.75em}.svg-inline--fa.fa-w-13{width:.8125em}.svg-inline--fa.fa-w-14{width:.875em}.svg-inline--fa.fa-w-15{width:.9375em}.svg-inline--fa.fa-w-16{width:1em}.svg-inline--fa.fa-w-17{width:1.0625em}.svg-inline--fa.fa-w-18{width:1.125em}.svg-inline--fa.fa-w-19{width:1.1875em}.svg-inline--fa.fa-w-20{width:1.25em}.svg-inline--fa.fa-pull-left{margin-right:.3em;width:auto}.svg-inline--fa.fa-pull-right{margin-left:.3em;width:auto}.svg-inline--fa.fa-border{height:1.5em}.svg-inline--fa.fa-li{width:2em}.svg-inline--fa.fa-fw{width:1.25em}.fa-layers svg.svg-inline--fa{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.fa-layers{display:inline-block;height:1em;position:relative;text-align:center;vertical-align:-.125em;width:1em}.fa-layers svg.svg-inline--fa{-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter,.fa-layers-text{display:inline-block;position:absolute;text-align:center}.fa-layers-text{left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter{background-color:#ff253a;border-radius:1em;-webkit-box-sizing:border-box;box-sizing:border-box;color:#fff;height:1.5em;line-height:1;max-width:5em;min-width:1.5em;overflow:hidden;padding:.25em;right:0;text-overflow:ellipsis;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-bottom-right{bottom:0;right:0;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom right;transform-origin:bottom right}.fa-layers-bottom-left{bottom:0;left:0;right:auto;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom left;transform-origin:bottom left}.fa-layers-top-right{right:0;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-top-left{left:0;right:auto;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top left;transform-origin:top left}.fa-lg{font-size:1.3333333333em;line-height:.75em;vertical-align:-.0667em}.fa-xs{font-size:.75em}.fa-sm{font-size:.875em}.fa-1x{font-size:1em}.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-6x{font-size:6em}.fa-7x{font-size:7em}.fa-8x{font-size:8em}.fa-9x{font-size:9em}.fa-10x{font-size:10em}.fa-fw{text-align:center;width:1.25em}.fa-ul{list-style-type:none;margin-left:2.5em;padding-left:0}.fa-ul>li{position:relative}.fa-li{left:-2em;position:absolute;text-align:center;width:2em;line-height:inherit}.fa-border{border:solid .08em #eee;border-radius:.1em;padding:.2em .25em .15em}.fa-pull-left{float:left}.fa-pull-right{float:right}.fa.fa-pull-left,.fab.fa-pull-left,.fal.fa-pull-left,.far.fa-pull-left,.fas.fa-pull-left{margin-right:.3em}.fa.fa-pull-right,.fab.fa-pull-right,.fal.fa-pull-right,.far.fa-pull-right,.fas.fa-pull-right{margin-left:.3em}.fa-spin{-webkit-animation:fa-spin 2s infinite linear;animation:fa-spin 2s infinite linear}.fa-pulse{-webkit-animation:fa-spin 1s infinite steps(8);animation:fa-spin 1s infinite steps(8)}@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.fa-rotate-90{-webkit-transform:rotate(90deg);transform:rotate(90deg)}.fa-rotate-180{-webkit-transform:rotate(180deg);transform:rotate(180deg)}.fa-rotate-270{-webkit-transform:rotate(270deg);transform:rotate(270deg)}.fa-flip-horizontal{-webkit-transform:scale(-1,1);transform:scale(-1,1)}.fa-flip-vertical{-webkit-transform:scale(1,-1);transform:scale(1,-1)}.fa-flip-both,.fa-flip-horizontal.fa-flip-vertical{-webkit-transform:scale(-1,-1);transform:scale(-1,-1)}:root .fa-flip-both,:root .fa-flip-horizontal,:root .fa-flip-vertical,:root .fa-rotate-180,:root .fa-rotate-270,:root .fa-rotate-90{-webkit-filter:none;filter:none}.fa-stack{display:inline-block;height:2em;position:relative;width:2.5em}.fa-stack-1x,.fa-stack-2x{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.svg-inline--fa.fa-stack-1x{height:1em;width:1.25em}.svg-inline--fa.fa-stack-2x{height:2em;width:2.5em}.fa-inverse{color:#fff}.sr-only{border:0;clip:rect(0,0,0,0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.sr-only-focusable:active,.sr-only-focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}.svg-inline--fa .fa-primary{fill:var(--fa-primary-color,currentColor);opacity:1;opacity:var(--fa-primary-opacity,1)}.svg-inline--fa .fa-secondary{fill:var(--fa-secondary-color,currentColor);opacity:.4;opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-primary{opacity:.4;opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-secondary{opacity:1;opacity:var(--fa-primary-opacity,1)}.svg-inline--fa mask .fa-primary,.svg-inline--fa mask .fa-secondary{fill:#000}.fad.fa-inverse{color:#fff}</style><link rel="icon" href="./static/MMIQ-logo.png">
+
+  <link href="./static/css" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/bulma.min.css">
+  <link rel="stylesheet" href="./static/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/fontawesome.all.min.css">
+  <link rel="stylesheet" href="./static/academicons.min.css">
+  <link rel="stylesheet" href="./static/index.css">
+  <link rel="stylesheet" href="./static/leaderboard.css">
+
+  <script type="text/javascript" src="./static/sort-table.js.下载" defer=""></script>
+
+  <script src="./static/jquery.min.js.下载"></script>
+  <script defer="" src="./static/fontawesome.all.min.js.下载"></script>
+  <script src="./static/bulma-carousel.min.js.下载"></script>
+  <script src="./static/bulma-slider.min.js.下载"></script>
+  <script src="./static/explorer-index.js.下载"></script>
+  <script src="./static/question_card.js.下载"></script>
+
+  <script src="./static/leaderboard_testmini.js.下载"></script>  
+  <script src="./static/output_folders.js.下载" defer=""></script>
+  <script src="./static/model_scores.js.下载" defer=""></script>
+
+  <script src="./static/data_public.js.下载" defer=""></script>
+</head>
+<body data-new-gr-c-s-check-loaded="14.1217.0" data-gr-ext-installed="" data-new-gr-c-s-loaded="14.1217.0">
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title is-bold">
+            <img src="./static/MMIQ-logo.png" style="width:1em;vertical-align: middle" alt="Logo">
+            <span class="mmiq" style="vertical-align: middle">MMIQ</span>
+            </h1>
+          <h2 class="subtitle is-3 publication-subtitle">
+            Are Your Multimodal Large Language Models Smart Enough?
+          </h2>
+
+        
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <!-- @PAN TODO: change links -->
+                <a href="https://github.com/" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <svg class="svg-inline--fa fa-file-pdf fa-w-12" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="file-pdf" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M181.9 256.1c-5-16-4.9-46.9-2-46.9 8.4 0 7.6 36.9 2 46.9zm-1.7 47.2c-7.7 20.2-17.3 43.3-28.4 62.7 18.3-7 39-17.2 62.9-21.9-12.7-9.6-24.9-23.4-34.5-40.8zM86.1 428.1c0 .8 13.2-5.4 34.9-40.2-6.7 6.3-29.1 24.5-34.9 40.2zM248 160h136v328c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V24C0 10.7 10.7 0 24 0h200v136c0 13.2 10.8 24 24 24zm-8 171.8c-20-12.2-33.3-29-42.7-53.8 4.5-18.5 11.6-46.6 6.2-64.2-4.7-29.4-42.4-26.5-47.8-6.8-5 18.3-.4 44.1 8.1 77-11.6 27.6-28.7 64.6-40.8 85.8-.1 0-.1.1-.2.1-27.1 13.9-73.6 44.5-54.5 68 5.6 6.9 16 10 21.5 10 17.9 0 35.7-18 61.1-61.8 25.8-8.5 54.1-19.1 79-23.2 21.7 11.8 47.1 19.5 64 19.5 29.2 0 31.2-32 19.7-43.4-13.9-13.6-54.3-9.7-73.6-7.2zM377 105L279 7c-4.5-4.5-10.6-7-17-7h-6v128h128v-6.1c0-6.3-2.5-12.4-7-16.9zm-74.1 255.3c4.1-2.7-2.5-11.9-42.8-9 37.1 15.8 42.8 9 42.8 9z"></path></svg><!-- <i class="fas fa-file-pdf"></i> Font Awesome fontawesome.com -->
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+
+              <span class="link-block">
+                <a href="https://github.com/AceCHQ/MMIQ/tree/main/" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <svg class="svg-inline--fa fa-github fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg=""><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg><!-- <i class="fab fa-github"></i> Font Awesome fontawesome.com -->
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <!-- Dataset Link. -->
+              <span class="link-block">
+                <a href="https://huggingface.co/datasets/huanqia/MMIQ" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <!-- <i class="far fa-images"></i> -->
+                      <p style="font-size:18px">🤗</p>
+                      <!-- 🔗 -->
+                  </span>
+                  <span>Dataset</span>
+                </a>
+              </span>
+      
+              <!-- Leaderboard Link. -->
+              <span class="link-block">
+                <a href="https://mmiq-benchmark.github.io/" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <p style="font-size:18px">🏆</p>
+                  </span>
+                  <span>Leaderboard</span>
+                </a>
+              </span>
+              <!-- Twitter Link. -->
+  
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="section">
+  <div class="container" style="margin-top: -150px; margin-bottom: -100px;">
+    <div class="columns is-centered m-6">
+      <div class="column is-full has-text-centered content">
+        <div class="box m-5">
+          <div class="content has-text-centered">
+            <img src="./static/combined_picture1.png" alt="combined reasoning" width="100%">
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container" style="margin-bottom: 2vh;">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Introduction</h2>
+        <div class="content has-text-justified">
+          <p>
+          <b>The remarkable progress of Multimodal Large Language Models (MLLMs) in recent years, with their impressive performance across diverse tasks, has raised a fundamental question: How close are they to achieving Artificial General Intelligence (AGI)?
+          </p>
+          <p>
+            <b> While existing benchmarks provide valuable insights into various abilities of MLLMs, focusing solely on task-specific performance without considering their underlying reasoning processes can lead to models that excel in target tasks but still lack human-like intelligence such as generalizability, robustness, and adaptation.
+          </p>
+          <p>
+            To bridge this gap, we present <img src="./static/MMIQ-logo.png" style="width:1.0em;vertical-align: middle" alt="Logo">
+            MMIQ, a new benchmark designed to evaluate MLLMs' intelligence through multiple reasoning patterns demanding abstract reasoning abilities. It encompasses three input formats, six problem configurations, and eight reasoning patterns.
+            With <b>2,710 samples</b>, <img src="./static/MMIQ-logo.png" style="width:1.0em;vertical-align: middle" alt="Logo"> MMIQ is the most comprehensive and largest AVR benchmark for evaluating the intelligence of MLLMs, and 3x and 10x larger than two very recent benchmarks MARVEL and MathVista-IQTest, respectively.
+          </p>
+
+          <p>
+            With <img src="./static/MMIQ-logo.png" style="width:1.0em;vertical-align: middle" alt="Logo"> MMIQ, we have conducted a comprehensive, quantitative evaluation of prominent MLLMs and present significant challenges: For example, the best-performing MLLM only achieves an average accuracy of <b>27.49%</b>,  slightly higher than randomly selecting an answer among four options. Notably, the accuracy of 75% reasoning patterns is lower than <b>30%</b>. The best-performing MLLM falls short of human performance by <b>23.8%</b>, as it often stucks in incorrect visual understanding and recognition of wrong pattern. This substantial gap highlights MLLMs' limitations in AVR tasks and underscores the necessity of our <img src="./static/MMIQ-logo.png" style="width:1.0em;vertical-align: middle" alt="Logo"> MMIQ.
+            By focusing on AVR problems, MMIQ provides a targeted assessment of the cognitive capabilities and intelligence of MLLMs, contributing to a more comprehensive understanding of their strengths and limitations in the pursuit of AGI.
+          </p>
+
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+</div>
+</section>
+
+
+
+<section class="section">
+  <div class="container">
+    
+    <div class="columns is-centered">
+      <div class="column is-full has-text-centered content">
+      
+
+        <h2 class="title is-3" id="leaderboard">Leaderboard on MMIQ</h2>
+        <div class="content">
+          <p class="mt-3">Accuracy scores on the <b>test</b> set (2,710 problems) of <img src="./static/MMIQ-logo.png" style="width:1.0em;vertical-align: middle" alt="Logo">
+            <span class="mmiq">MMIQ</span>.
+          </p>
+
+          <table class="js-sort-table" id="results" data-js-sort-table="true">
+            <thead><tr>
+                <td class="js-sort-number" data-js-sort-colnum="0"><strong>#</strong></td>
+                <td class="js-sort-number" data-js-sort-colnum="1"><strong>Model</strong></td>
+                <td class="js-sort-number" data-js-sort-colnum="2"><strong>Type</strong></td>
+                <td class="js-sort-number" data-js-sort-colnum="3"><strong>Source</strong></td>
+                <td class="js-sort-number" data-js-sort-colnum="4"><strong>Date</strong></td>
+                <td class="js-sort-number" data-js-sort-colnum="5"><strong><u>Mean</u></strong></td>
+                <td class="js-sort-number" data-js-sort-colnum="6"><strong>LO</strong></td>
+                <td class="js-sort-number" data-js-sort-colnum="7"><strong>Math</strong></td>
+                <td class="js-sort-number" data-js-sort-colnum="8"><strong>2D-G</strong></td>
+                <td class="js-sort-number" data-js-sort-colnum="9"><strong>3D-G</strong></td>
+                <td class="js-sort-number" data-js-sort-colnum="10"><strong>VI</strong></td>
+                <td class="js-sort-number" data-js-sort-colnum="11"><strong>TM</strong></td>
+                <td class="js-sort-number" data-js-sort-colnum="12"><strong>SR</strong></td>
+                <td class="js-sort-number" data-js-sort-colnum="13"><strong>CO</strong></td>
+
+            </tr></thead><tbody>
+            <tr>
+              <td>1</td>
+              <td><b class="best-score-text">Human Performance* 🥇</b></td>
+              <td>- </td>
+              <td><a href="https://github.com/" class="ext-link" style="font-size: 16px;">Link</a></td>
+              <td>2024-09-04</td>
+              <td><b class="best-score-text">51.27</b></td>
+              <td>61.36</td>
+              <td>45.03</td>
+              <td>60.11</td>
+              <td>47.48</td>
+              <td>46.67</td>
+              <td>55.61</td>
+              <td>36.63</td>
+              <td>65.79</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td><b class="best-score-text">Claude-3.5-sonnet 🥈</b></td>
+              <td>Proprietary</td>
+              <td><a href="https://www.anthropic.com/news/claude-3-5-sonnet" class="ext-link" style="font-size: 16px;">Link</a></td>
+              <td>2024-11-14</td>
+              <td><b class="best-score-text">27.49</b></td>
+              <td>23.41</td>
+              <td>29.48</td>
+              <td>26.60</td>
+              <td>24.37</td>
+              <td>35.56</td>
+              <td>25.69</td>
+              <td>27.72</td>
+              <td>42.11</td>
+                             
+            </tr>
+              <tr><td>3</td>
+              <td><b class="best-score-text">QVQ-72B-Preview 🥉</b></td>
+              <td>Open-Source 🖼️</td>
+              <td><a href="https://qwenlm.github.io/blog/qvq-72b-preview/" class="ext-link" style="font-size: 16px;">Link</a></td>
+              <td>2024-02-22</td>
+              <td><b class="best-score-text">26.94</b></td>
+              <td>28.91</td>
+              <td>25.59</td>
+              <td>29.23</td>
+              <td>26.38</td>
+              <td>26.67</td>
+              <td>25.43</td>
+              <td>22.77</td>
+              <td>34.21</td>
+                      
+            </tr>
+            <tr>
+              <td>4</td>
+              <td><b class="">GPT-4o</b></td>
+              <td>Proprietary</td>
+              <td><a href="https://openai.com/index/hello-gpt-4o/" class="ext-link" style="font-size: 16px;">Link</a></td>
+              <td>2024-01-22</td>
+              <td><b class="">26.87</b></td>
+              <td>25.52</td>
+              <td>25.70</td>
+              <td>28.32</td>
+              <td>27.64</td>
+              <td>26.67</td>
+              <td>25.69</td>
+              <td>27.72</td>
+              <td>50.00</td>
+                             
+            </tr>
+            <tr>
+              <td>5</td>
+              <td><b class="">Gemini-1.5-pro-002</b></td>
+              <td>Proprietary</td>
+              <td><a href="https://deepmind.google/technologies/gemini/pro/" class="ext-link" style="font-size: 16px;">Link</a></td>
+              <td>2023-12-26</td>
+              <td><b class="">26.86</b></td>
+              <td>19.53</td>
+              <td>27.43</td>
+              <td>28.03</td>
+              <td>25.88</td>
+              <td>24.44</td>
+              <td>31.17</td>
+              <td>25.74</td>
+              <td>39.47</td>
+                            
+            </tr>
+            <tr>
+              <td>6</td>
+              <td><b class="">Qwen2-VL-72B-Instruct</b></td>
+              <td>Open-Source 🖼️</td>
+              <td><a href="https://github.com/QwenLM/Qwen2-VL" class="ext-link" style="font-size: 16px;">Link</a></td>
+              <td>2024-01-13</td>
+              <td><b class="">26.38</b></td>
+              <td>24.74</td>
+              <td>24.40</td>
+              <td>28.60</td>
+              <td>27.39</td>
+              <td>24.44</td>
+              <td>26.93</td>
+              <td>32.67</td>
+              <td>23.68</td>
+                 
+            </tr>
+            <tr>
+              <td>7</td>
+              <td><b class="">Deepseek-vl-7b-chat</b></td>
+              <td>Open-Source 🖼️</td>
+              <td><a href="https://arxiv.org/pdf/2403.05525" class="ext-link" style="font-size: 16px;">Link</a></td>
+              <td>2024-04-14</td>
+              <td><b class="">22.17</b></td>
+              <td>19.53</td>
+              <td>20.30</td>
+              <td>22.25</td>
+              <td>27.39</td>
+              <td>35.56</td>
+              <td>23.72</td>
+              <td>24.75</td>
+              <td>15.79</td>
+                           
+            </tr>
+            <tr>
+              <td>8</td>
+              <td><b class="">LLaVA-1.6-7B</b></td>
+              <td>Open-Source 🖼️</td>
+              <td><a href="https://github.com/haotian-liu/LLaVA" class="ext-link" style="font-size: 16px;">Link</a></td>
+              <td>2023-10-03</td>
+              <td><b class="">19.45</b></td>
+              <td>24.22</td>
+              <td>20.34</td>
+              <td>17.92</td>
+              <td>15.83</td>
+              <td>20.00</td>
+              <td>18.23</td>
+              <td>17.82</td>
+              <td>18.42</td>
+                            
+            </tr>
+                                     
+        </tbody></table>
+
+          <b>Human Performance*:</b> Average human performance from annotators who have high school diplomas or above.
+          <br>
+          <!-- <b>Method types:</b> <b>MoE 🤖:</b> Mixture of Experts, <b>LMM 🖼️:</b> Large Multimodal Model, <b>Tool 🛠️:</b> Tool-augmented Large Language Model.
+          <br> -->
+          <b>Reasoning Pattern:</b> <b>LO:</b> Logical Operation,
+          <b>2D-G:</b> 2D-Geometry,
+          <b>3D-G:</b> 3D-Geometry,
+
+          <br>
+          <b>VI:</b> Visual Instruction,
+          <b>TM:</b> Temporal Movement,
+          <b>SR:</b> Spatial Relationship,
+          <b>CO:</b> Concrete Object.
+
+          <br>
+          <br>
+          <div>
+          <p>🚨 To submit your results to the leaderboard, please send to <a href="caihuanqia19@mails.ucas.ac.cn">this email</a> with your result json files.</p>
+          <p>🚨 For more submission details, please refer to <a href="https://github.com/lupantech/MathVista?tab=readme-ov-file#-leaderboard-">this link</a> and <a href="https://github.com/lupantech/MathVista?tab=readme-ov-file#-evaluations-on-mathvista">this link</a>.
+          </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- DATASET SECTION -->
+<section class="hero is-light is-small">
+  <div class="hero-body has-text-centered">
+  <h1 class="title is-1 mmiq">
+    <span class="mmiq" style="vertical-align: middle">MMIQ Dataset</span>
+  </h1>
+  </div>
+</section>
+
+            
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered has-text-centered">
+      <!-- <div class="column is-full-width has-text-centered"> -->
+        <div class="column is-four-fifths">
+        <h2 class="title is-3">Overview</h2>
+        <div class="content has-text-justified">
+          <p>
+            <img src="./static/MMIQ-logo.png" style="width:1.0em;vertical-align: middle" alt="Logo">
+            <span class="mmiq">MMIQ</span> is a new benchmark designed to evaluate MLLMs’ intelligence through multiple reasoning patterns demanding abstract reasoning abilities.
+            It encompasses <b>three input formats</b>, <b>six problem configurations</b>, and <b>eight reasoning pattern</b>. With <b>2,710 samples</b>, MMIQ is the most comprehensive and largest AVR benchmark for evaluating the intelligence of MLLMs. 
+            MMIQ adopts data from professional and authoritative examinations and performs rigorous quality control, which ensures its correctness and validity.
+          </p>
+
+
+          <p>
+            You can download the dataset on <a href="https://huggingface.co/datasets/huanqia/MMIQ/" target="_blank">Hugging Face Dataset</a>.
+          <p></p>
+
+        </div>
+      </div>
+    </div>
+    <div class="columns is-centered">
+
+    </div>
+
+    
+    <div class="columns is-centered m-6">
+      <div class="column is-full has-text-centered content">
+        <h2 class="title is-3">Examples</h2>
+
+          <div id="results-carousel" class="carousel results-carousel">
+            
+            <div class="box m-5">
+              <div class="content has-text-centered">
+                <p> Prompt: Choose the most appropriate option from the given four choices to fill in the question mark, so that it presents a certain regularity:</p>
+
+                <img src="./static/imgs/logical_AND_2664.png" alt="algebraic reasoning" width="50%">
+                <p>(Ground Truth: C)</p>
+                <p> A visual example of logical operation pattern of <img src="./static/MMIQ-logo.png" style="width:1.0em;vertical-align: middle" alt="Logo"> MMIQ.</p> 
+              </div>
+            </div>
+
+            <div class="box m-5">
+              <div class="content has-text-centered">
+                <p>Prompt1: Choose the most appropriate option from the given four options to present a certain regularity: </p>
+                <img src="./static/imgs/arithmetic_1133.png" alt="arithmetic reasoning" width="50%"> 
+                <p> </p>(Ground Truth: D)
+                <p>Prompt2: Choose the most appropriate option from the given four choices to fill in the question mark, so that it presents a certain regularity: </p>
+                <img src="./static/imgs/quantity_point_678.png" alt="arithmetic reasoning" width="50%"> 
+                <p>(Ground Truth: A)</p>
+                <p> Two visual example of mathematical pattern of <img src="./static/MMIQ-logo.png" style="width:1.0em;vertical-align: middle" alt="Logo"> MMIQ.</p> 
+              </div>
+            </div>
+
+
+
+            <div class="box m-5">
+              <div class="content has-text-centered">
+                <p>Prompt: The option that best fits the given pattern of figures is ( ).</p>
+                <img src="./static/imgs/2D_sys_1036.png" alt="arithmetic reasoning" width="100%"> 
+                <p> </p>(Ground Truth: A)
+                <p> A visual example of 2D-geometry pattern of <img src="./static/MMIQ-logo.png" style="width:1.0em;vertical-align: middle" alt="Logo"> MMIQ.</p> 
+              </div>
+            </div>
+
+
+            <div class="box m-5">
+              <div class="content has-text-centered">
+                <p>Prompt: Choose the most appropriate option from the given four options to present a certain regularity:</p>
+                <img src="./static/imgs/Visual_instruction_arrow_2440.png" alt="arithmetic reasoning" width="100%"> 
+                <p> </p>(Ground Truth: B)
+                <p> A visual example of visual instruction pattern of <img src="./static/MMIQ-logo.png" style="width:1.0em;vertical-align: middle" alt="Logo"> MMIQ.</p> 
+              </div>
+            </div>
+
+
+            <div class="box m-5">
+              <div class="content has-text-centered">
+                <p>Prompt: Choose the most appropriate option from the given four options to present a certain regularity:</p>
+                <img src="./static/imgs/spatial_6160.png" alt="arithmetic reasoning" width="80%"> 
+                <p> </p>(Ground Truth: D)
+                <p> A visual example of spatial relationship pattern of <img src="./static/MMIQ-logo.png" style="width:1.0em;vertical-align: middle" alt="Logo"> MMIQ.</p> 
+              </div>
+            </div>
+
+            <div class="box m-5">
+              <div class="content has-text-centered">
+                <p>Prompt: Choose the most appropriate option from the given four choices to fill in the question mark, so that it presents a certain regularity:</p>
+                <img src="./static/imgs/concrete_object_6167.png" alt="arithmetic reasoning" width="40%"> 
+                <p> </p>(Ground Truth: D)
+                <p> A visual example of concrete object pattern of <img src="./static/MMIQ-logo.png" style="width:1.0em;vertical-align: middle" alt="Logo"> MMIQ.</p> 
+              </div>
+            </div>
+
+
+            <div class="box m-5">
+              <div class="content has-text-centered">
+                <p>Prompt: The one that matches the top view is:</p>
+                <img src="./static/imgs/3D_view_1699.png" alt="arithmetic reasoning" width="80%"> 
+                <p> </p>(Ground Truth: C)
+                <p> A visual example of 3D-geometry pattern of <img src="./static/MMIQ-logo.png" style="width:1.0em;vertical-align: middle" alt="Logo"> MMIQ.</p> 
+              </div>
+            </div>
+
+
+
+            <div class="box m-5">
+              <div class="content has-text-centered">
+                <p>Prompt:Choose the most appropriate option from the given four choices to fill in the question mark, so that it presents a certain regularity:</p>
+                <img src="./static/imgs/temporal_rotation_1379.png" alt="arithmetic reasoning" width="50%"> 
+                <p> </p>(Ground Truth: C)
+                <p> A visual example of temporal movement pattern of <img src="./static/MMIQ-logo.png" style="width:1.0em;vertical-align: middle" alt="Logo"> MMIQ.</p> 
+              </div>
+            </div>
+
+          </div>
+
+
+          
+        </div>
+
+        <br><br>
+
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</section>
+
+
+<!-- @PAN TODO: bibtex -->
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title is-3 has-text-centered">BibTeX</h2>
+    <pre><code>@inproceedings{cai2025mmiq,
+  title = {MMIQ: Are Your Multimodal Large Language Models Smart Enough?},
+  year = {2025}
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <!-- <div class="container"> -->
+    <div class="content has-text-centered">
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is website adapted from <a href="https://nerfies.github.io/">Nerfies</a> and <a href="https://mathvista.github.io/">MathVista</a>, licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  <!-- </div> -->
+</footer>
+
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;limited&quot;,&quot;isActive&quot;:false,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
